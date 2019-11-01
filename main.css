@@ -1,0 +1,82 @@
+.page {
+  position: absolute;
+  width: 1080px;
+  height: 1920px;
+  top: 0;
+  left: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: none;
+  opacity: 0;
+}
+
+.button {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 900px;
+  left: calc(50% - 150px);
+}
+
+/* Page 1 */
+#page1 {
+  display: block;
+  opacity: 1;
+  background-image: url(./image/1.jpg);
+}
+
+#startButton {
+  background-image: url(./image/start.png);
+}
+
+/* Page 2 */
+#page2 {
+  background-image: url(./image/2.jpg);
+  transition: all 3s linear;
+}
+.window {
+  position: absolute;
+  width: 800px;
+  height: 300px;
+  top: 600px;
+  left: 140px;
+  overflow: hidden;
+}
+
+.window img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#spinButton {
+  top: 1200px;
+  background-image: url(./image/spin.png);
+}
+
+.reelholder {
+  margin-left: 28px;
+  margin-top: -840px;
+}
+
+.reelholder div {
+  background-repeat: repeat-y;
+  background-image: url(./image/reel.png);
+  height: 999999px;
+  float: left;
+  width: 200px;
+  margin-left: 49px;
+  transition: all 1.5s ease-in-out;
+}
+
+#page3 {
+  background-image: url(./image/3.jpg);
+}
+#page4 {
+  background-image: url(./image/4.jpg);
+}
